@@ -1,0 +1,44 @@
+.menu_home{
+    margin-top: 15px;
+    height: 80px !important;
+    background: rgb(255, 255, 255) !important;
+    color: black !important;
+}
+
+.menu_home .fonts {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menu_home .button {
+    border: 0px;
+    background-color: #26ca9a;
+    width: 150px;
+    min-width: 150px;
+    height: 44px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 10px 10px;
+    margin-left: 40px
+}
+
+.menu_home .button:hover {
+    transform:scale(1.1);
+    box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+    transition: all 0.10x|s ease;
+}
+
+
+.menu_home .sub {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.menu_home .sub:hover, .menu_home .sub:focus {
+    background-size: 100% 2px !important;
+}

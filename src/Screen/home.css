@@ -1,0 +1,116 @@
+.content_main {
+    margin-top: -60px;
+    background: #fff;
+}
+
+.fonts {
+    font-family: 'Lato', sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+    text-align: center;
+    color: #2d3640;
+}
+
+.body {
+    font-weight: 600;
+}
+
+.card {
+    margin-top: -50px;
+    border: 0px;
+    z-index: 20;
+    padding: 0 !important;
+}
+
+.card:hover {
+    transform:scale(1.1);
+    transition: all 0.10s ease;
+}
+
+.card .image {
+    display:block;
+    margin:auto;
+    width: 70%;
+    height: 250px;
+}
+
+.card .image:hover {
+    background-color: #ffffff;
+}
+
+.btn-home{
+    font-size: 16px;
+    font-weight: 500;
+    color: #2d3640;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 50px;
+    text-decoration: none;
+}
+
+.btn-home:link, .btn-home:visited {
+    background-color: #ffffff;
+    color: #2d3640;
+    padding: 11px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid rgb(36, 34, 34);
+}
+
+.btn-home:hover, .btn-home:active {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.home__main{
+    height: 700px;
+    background-image: linear-gradient(79deg,rgba(230,50,98,.9),rgba(253,64,86,.9));
+    padding: 58px 80px 59px 80px;
+    text-align: center;
+}
+
+.home__main .home_sub_main {
+    background-image: linear-gradient(79deg,rgba(230,50,98,.9),rgba(253,64,86,.9));
+    overflow: hidden;
+    position: relative;
+    height: 158px;
+    padding-top: 119px;
+    padding-bottom: 119px;
+}
+
+.home__main .home_sub_main h1 {
+    font-size: 42px;
+    font-weight: 300;
+    color: #fff;
+    padding-bottom: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.home__main .home_sub_main .home_sub_div{
+    margin: auto;
+    position: relative;
+    width: 270px;
+    height: 70px;
+}
+
+.home__main .home_sub_main .button{
+
+    width: 270px;
+    height: 70px;
+    border-radius: 2px;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2d3640;
+    border: none;
+}
